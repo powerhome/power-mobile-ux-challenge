@@ -1,13 +1,6 @@
-//
-//  ChatAppUITestsLaunchTests.swift
-//  ChatAppUITests
-//
-//  Created by Jasper Furniss on 11/22/22.
-//
-
 import XCTest
 
-final class ChatAppUITestsLaunchTests: XCTestCase {
+final class UITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true
