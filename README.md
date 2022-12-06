@@ -16,8 +16,8 @@ For the app portion, keep it simple. Build a simple two-screen app. The first sc
 
 Here are some lo-fi’s of what the app might look like using the design system:
 
-![App Screenshot 1]()
-![App Screenshot 2]()
+Screenshot 1
+Screenshot 2
 
 ## Submission
 
