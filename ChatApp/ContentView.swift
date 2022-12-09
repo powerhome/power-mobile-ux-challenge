@@ -10,10 +10,8 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+          PBAvatar(image: .init(systemName: "person"), name: "Tim Wenhold", size: .medium, status: .away, shape: .circle)
+            Text("Hello, Tim!")
         }
         .padding()
     }

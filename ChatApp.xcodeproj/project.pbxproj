@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EE042E542943EB390047CE8F /* Avatar.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE042E532943EB390047CE8F /* Avatar.swift */; };
 		FD0E3790292D5B2F00FCA511 /* ChatAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0E378F292D5B2F00FCA511 /* ChatAppApp.swift */; };
 		FD0E3792292D5B2F00FCA511 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0E3791292D5B2F00FCA511 /* ContentView.swift */; };
 		FD0E3794292D5B3100FCA511 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD0E3793292D5B3100FCA511 /* Assets.xcassets */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EE042E532943EB390047CE8F /* Avatar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Avatar.swift; sourceTree = "<group>"; };
 		FD0E378C292D5B2F00FCA511 /* ChatApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD0E378F292D5B2F00FCA511 /* ChatAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatAppApp.swift; sourceTree = "<group>"; };
 		FD0E3791292D5B2F00FCA511 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -95,6 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				FD0E378F292D5B2F00FCA511 /* ChatAppApp.swift */,
+				EE042E532943EB390047CE8F /* Avatar.swift */,
 				FD0E3791292D5B2F00FCA511 /* ContentView.swift */,
 				FD0E3793292D5B3100FCA511 /* Assets.xcassets */,
 				FD0E3795292D5B3100FCA511 /* Preview Content */,
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE042E542943EB390047CE8F /* Avatar.swift in Sources */,
 				FD0E3792292D5B2F00FCA511 /* ContentView.swift in Sources */,
 				FD0E3790292D5B2F00FCA511 /* ChatAppApp.swift in Sources */,
 			);
@@ -424,6 +428,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -452,6 +457,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
